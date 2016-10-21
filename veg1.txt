@@ -1,0 +1,42 @@
+<table class="table table-bordered" id="Non-Veg_menu">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Paneer Butter Masala</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Dal Fry</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Dal Makhani</td>
+			<td>60</td>
+		</tr>
+		<tr>
+			<td>Kadai Paneer</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td> Matar Paneer</td>
+			<td>85</td>
+		</tr>
+		<tr>
+			<td>Handi Paneer</td>
+			<td>100</td>
+		</tr>
+		<tr>
+			<td>Palak Paneer</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Mix Veg</td>
+			<td>55</td>
+		</tr>
+	</tbody>
+</table>

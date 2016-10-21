@@ -1,0 +1,42 @@
+<table class="table table-bordered" id="Non-Veg_menu">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Roti</td>
+			<td>5</td>
+		</tr>
+		<tr>
+			<td>Rumali roti</td>
+			<td>6</td>
+		</tr>
+		<tr>
+			<td> Butter Roti</td>
+			<td>7</td>
+		</tr>
+		<tr>
+			<td> Butter Naan</td>
+			<td>15</td>
+		</tr>
+		<tr>
+			<td>Laccha Paratha</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>veg stuff paratha</td>
+			<td>25</td>
+		</tr>
+		<tr>
+			<td>Paneer stuff paratha</td>
+			<td>35</td>
+		</tr>
+		<tr>
+			<td>Paneer stuff Naan</td>
+			<td>220</td>
+		</tr>
+	</tbody>
+</table>

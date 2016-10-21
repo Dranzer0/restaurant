@@ -1,0 +1,42 @@
+<table class="table table-bordered" id="Non-Veg_menu">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Veg Kebab</td>
+			<td>179</td>
+		</tr>
+		<tr>
+			<td>Dahi Kebab</td>
+			<td>179</td>
+		</tr>
+		<tr>
+			<td>Paneer Tikka</td>
+			<td>179</td>
+		</tr>
+		<tr>
+			<td>Veg Nuggets</td>
+			<td>179</td>
+		</tr>
+		<tr>
+			<td>Cheese Balls</td>
+			<td>179</td>
+		</tr>
+		<tr>
+			<td>Tandoori Khumb</td>
+			<td>199</td>
+		</tr>
+		<tr>
+			<td>Cheese Corn Roll</td>
+			<td>199</td>
+		</tr>
+		<tr>
+			<td>Tandoori Brocooli</td>
+			<td>199</td>
+		</tr>
+	</tbody>
+</table>

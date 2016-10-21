@@ -1,0 +1,42 @@
+<table class="table table-bordered" id="Non-Veg_menu" color="black">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Chicken Kebab</td>
+			<td>230</td>
+		</tr>
+		<tr>
+			<td>Murgh Malai Tikka</td>
+			<td>230</td>
+		</tr>
+		<tr>
+			<td>Murgh Kali Mirch Tikka</td>
+			<td>230</td>
+		</tr>
+		<tr>
+			<td>Chicken Nuggets</td>
+			<td>230</td>
+		</tr>
+		<tr>
+			<td>Tandoori Murgh</td>
+			<td>280</td>
+		</tr>
+		<tr>
+			<td>Bhuna Gosht</td>
+			<td>230</td>
+		</tr>
+		<tr>
+			<td>Mutton Barrah Kebab</td>
+			<td>190</td>
+		</tr>
+		<tr>
+			<td>Fish Tikka</td>
+			<td>220</td>
+		</tr>
+	</tbody>
+</table>

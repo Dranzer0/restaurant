@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New Restaurant</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+	    	<div class="navbar-header">
+	    	  <a class="navbar-brand" href="#">WebSiteName</a>
+	    	</div>
+	    	
+	   		<ul class="nav navbar-nav navbar-right">
+	    		<li><a href="https://www.facebook.com/"><img src="fb.jpg"></a></li>
+	    		<li><a href="https://twitter.com/?lang=en"><img src="twitter.jpg"></a></li>
+	    		<li><a href="https://www.linkedin.com/uas/login"><img src="linkedn.jpg"></a></li>
+	    	</ul>
+	  	</div>
+	</nav>
+	<div class="container-fluid">
+		<div id="carousel-slider" class="carousel slide" data-ride="carousel">
+  			<ol class="carousel-indicators">
+   	 			<li data-target="#carousel-slider" data-slide-to="0" class="active"></li>
+    			<li data-target="#carousel-slider" data-slide-to="1"></li>
+    			<li data-target="#carousel-slider" data-slide-to="2"></li>	
+  			</ol>
+  			<div class="carousel-inner" role="listbox">
+  				<div class="item active">
+  					<img src="w1.jpg" class="img-rounded">
+  				</div>
+
+  				<div class="item">
+  					<img src="w2.jpg" class="img-rounded">
+  				</div>
+
+  				<div class="item">
+  					<img src="w3.jpeg" class="img-rounded">
+  				</div>
+
+  			</div>
+
+  			<a class="left carousel-control" href="#carousel-slider" data-slide="prev">
+		    	<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-slider" data-slide="next">
+		    	<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+
+  		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="jumbotron" id="layout">
+
+			<nav class="navbar navbar-default" id="navmenu">
+			  <div id="food">
+			    	
+			    <ul class="nav navbar-nav">
+			      <li id="breads"><h3>Breads</h3></li>
+			      <li id="veg"><h3>Veg</h3></li>
+			      <li id="non-veg"><h3>Non-Veg</h3></li>
+			      <li id="starters"><h3>Starters</h3></li> 
+			      <li id="beverages"><h3>Beverages</h3></li> 
+			    </ul>
+			  </div>
+			</nav>	
+			<div id="text">
+				<h3>Breads</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div id="live_data"></div>
+				</div>
+				<div class="col-md-4">
+					<div id="live-data2"></div>
+				</div>
+				<div class="col-md-4">
+					<div id="quote">
+						<div class="well well-lg">
+							<h3>Part of the secret of success in life is to eat what you like and let the food fight it out inside</h3>
+						</div>
+						<div id="author"><h5>― Mark Twain</h5></div>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+
+	<div class="container-fluid">
+		<div class="jumbotron" id="contact-form">
+			<h3>Contact Form</h3>
+			<form class="well form-horizontal" action="" method="post" id="contact_form">
+
+				<div class="form-group">
+				  <label class="col-md-4 control-label">First Name</label>  
+				  <div class="col-md-4 inputGroupContainer">
+				  <div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+				  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+				    </div>
+				  </div>
+				</div>	
+
+				<div class="form-group">
+				  <label class="col-md-4 control-label" >Last Name</label> 
+				    <div class="col-md-4 inputGroupContainer">
+				    <div class="input-group">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+				  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+				    </div>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="col-md-4 control-label">E-Mail</label>  
+				    <div class="col-md-4 inputGroupContainer">
+				    <div class="input-group">
+				        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+				  		<input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+				    </div>
+				  </div>
+				</div>
+
+				<div class="form-group">
+				  <label class="col-md-4 control-label">Comments</label>
+				    <div class="col-md-4 inputGroupContainer">
+				    <div class="input-group">
+				        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+				        <textarea class="form-control" name="comment" placeholder="Comments"></textarea>
+				  </div>
+				  </div>
+				</div>
+				<div class="form-group">
+					<button type="submit" class="btn-success" id="submit">Submit</button>
+				</div>
+				
+			</form>
+			<div id="footer"><h3>Follow us:</h3></div>
+			<div id="social_media">
+				<a href="https://www.facebook.com/"><img src="fb.jpg" width="60px" height="60px" id="fb"></a>
+				<a href="https://twitter.com/?lang=en"><img src="twitter.jpg" width="60px" height="60px" id="twitter"></a>
+				<a href="https://www.linkedin.com/uas/login"><img src="linkedn.jpg" width="60px" height="60px" id="linkedn"></a>
+				
+				
+				
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<h3 class="text-center">Location</h3>
+			<div id="map"></div>
+		</div>
+		<script>
+	      function initMap() {
+	        var delhi = {lat: 28.7041, lng: 77.1025};
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          zoom: 4,
+	          center: delhi
+	        });
+	        var marker = new google.maps.Marker({
+	          position: delhi,
+	          map: map
+	        });
+	      }
+	    </script>
+	    <script async defer
+	   	 src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+	    </script>	
+	</div>
+
+</body>
+	<script type="text/javascript">
+		
+		$(document).ready(function(){
+			function col1(){
+				$.ajax({
+					url:'breads1.txt',
+					success:function(data){
+						$('#live_data').html(data);
+					}
+				});
+				$("#text").html("<h3>Breads</h3>");
+			}
+
+			col1();
+			function col2(){
+				$.ajax({
+					url:'breads2.txt',
+					success:function(data){
+						$('#live-data2').html(data);
+					}
+				});
+				$("#text").html("<h3>Breads</h3>");
+
+			}
+			col2();
+
+			
+			$('#breads').click(function(){
+				$.ajax({
+					url:'breads1.txt',
+					success:function(data){
+						$('#live_data').html(data);
+					}
+				});
+				$("#text").html("<h3>Breads</h3>");
+			});
+			$('#breads').click(function(){
+				$.ajax({
+					url:'breads2.txt',
+					success:function(data){
+						$('#live-data2').html(data);
+					}
+				});
+				$("#text").html("<h3>Breads</h3>");
+			});
+			$('#veg').click(function (){
+				$.ajax({
+					url:'veg1.txt',
+					success:function(data){
+						$('#live_data').html(data);
+					}
+				});
+				$("#text").html("<h3>Veg</h3>");
+			});
+			$('#veg').click(function(){
+				$.ajax({
+					url:'veg2.txt',
+					success:function(data){
+						$('#live-data2').html(data);
+					}
+				});
+				$("#text").html("<h3>Veg</h3>");
+			});
+			$('#non-veg').click(function(){
+				$.ajax({
+					url:'change.txt',
+					success:function(data){
+						$('#live_data').html(data);
+					}
+				});
+				$("#text").html("<h3>Non-Veg</h3>");
+			});
+			$('#non-veg').click(function(){
+				$.ajax({
+					url:'change2.txt',
+					success:function(data){
+						$('#live-data2').html(data);
+					}
+				});
+				$("#text").html("<h3>Non-Veg</h3>");
+			});
+			$('#starters').click(function(){
+				$.ajax({
+					url:'starters1.txt',
+					success:function(data){
+						$('#live_data').html(data);
+					}
+				});
+				$("#text").html("<h3>Starters</h3>");
+			});
+			$('#starters').click(function(){
+				$.ajax({
+					url:'starters2.txt',
+					success:function(data){
+						$('#live-data2').html(data);
+					}
+				});
+				$("#text").html("<h3>Starters</h3>");
+			});
+			$('#beverages').click(function (){
+				$.ajax({
+					url:'beverages1.txt',
+					success:function(data){
+						$('#live_data').html(data);
+					}
+				});
+				$("#text").html("<h3>Beverages</h3>");
+			});
+			$('#beverages').click(function(){
+				$.ajax({
+					url:'beverages2.txt',
+					success:function(data){
+						$('#live-data2').html(data);
+					}
+				});
+				$("#text").html("<h3>Beverages</h3>");
+			});
+			
+		})
+	</script>
+
+</html>

@@ -1,0 +1,35 @@
+<table class="table table-bordered" id="Non-Veg_menu">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>CololDrink</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<td>Strawberry Shake</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<td>Pineapple Shake</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<td>Choco Shake</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<td>Hot Coffee</td>
+			<td>45</td>
+		</tr>
+		<tr>
+			<td>Ice Tea</td>
+			<td>55</td>
+		</tr>
+		
+	</tbody>
+</table>

@@ -1,0 +1,42 @@
+<table class="table table-bordered" id="Non-Veg_menu">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td> Paneer Bhujia</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Paneer Tikka</td>
+			<td>110</td>
+		</tr>
+		<tr>
+			<td> Dum Aloo</td>
+			<td>60</td>
+		</tr>
+		<tr>
+			<td> Aloo Jeera</td>
+			<td>40</td>
+		</tr>
+		<tr>
+			<td>Pindi Chana</td>
+			<td>60</td>
+		</tr>
+		<tr>
+			<td>Rajma Masala</td>
+			<td>60</td>
+		</tr>
+		<tr>
+			<td> Malai Kofta</td>
+			<td>110</td>
+		</tr>
+		<tr>
+			<td>Mushroom Paneer</td>
+			<td>120</td>
+		</tr>
+	</tbody>
+</table>

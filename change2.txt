@@ -1,0 +1,42 @@
+<table class="table table-bordered" id="Non-Veg_menu">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Murg Malai Tikka</td>
+			<td>120</td>
+		</tr>
+		<tr>
+			<td> Mutton Seek Kabab</td>
+			<td>110</td>
+		</tr>
+		<tr>
+			<td>Chicken Do Pyaja</td>
+			<td>230</td>
+		</tr>
+		<tr>
+			<td>Chicken Tikka Masala</td>
+			<td>160</td>
+		</tr>
+		<tr>
+			<td>Mutton Curry</td>
+			<td>110</td>
+		</tr>
+		<tr>
+			<td>Egg Curry</td>
+			<td>50</td>
+		</tr>
+		<tr>
+			<td>Fish Curry</td>
+			<td>120</td>
+		</tr>
+		<tr>
+			<td>Fish Tikka</td>
+			<td>120</td>
+		</tr>
+	</tbody>
+</table>

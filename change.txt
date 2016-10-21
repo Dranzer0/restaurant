@@ -1,0 +1,42 @@
+<table class="table table-bordered" id="Non-Veg_menu">
+	<thead>
+		<tr>
+			<td>Name</td>
+			<td>price</td>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Chicken kali Mirch</td>
+			<td>170</td>
+		</tr>
+		<tr>
+			<td>Tandoori Chicken</td>
+			<td>150</td>
+		</tr>
+		<tr>
+			<td>Chicken Birayani</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Mutton Birayani</td>
+			<td>110</td>
+		</tr>
+		<tr>
+			<td>Butter Chicken</td>
+			<td>210</td>
+		</tr>
+		<tr>
+			<td>Kadahi Chicken</td>
+			<td>230</td>
+		</tr>
+		<tr>
+			<td>Chicken Curry</td>
+			<td>190</td>
+		</tr>
+		<tr>
+			<td>Hyderabadi Chicken</td>
+			<td>220</td>
+		</tr>
+	</tbody>
+</table>
